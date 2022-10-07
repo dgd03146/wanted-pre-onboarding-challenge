@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  font-size: 2rem;
+  background-color: #242424;
+}
+
+p {
+  color: #e2e2e2;
+}
+
+button {
+  background-color: black !important;
+  color: white;
+}
