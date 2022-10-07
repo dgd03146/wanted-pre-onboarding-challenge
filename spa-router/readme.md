@@ -37,7 +37,7 @@ const { push } = useRouter();
 
 힌트를 보고 `history.pushState( )`를 사용하여서 페이지 이동없이 url 변경만 가능하게 한다. 브라우저 페이지를 이동하게 되면 **`window.onpopstate`** 라는 이벤트가 발생하게 되는데, `pushState` 를 했을때는 `popstate` 이벤트가 발생하지않아 화면이 렌더링이 되지 않는 문제가 생겼다. 오직 뒤 / 앞으로 가기를 클릭 했을때 `popstate` 이벤트가 발생하게 되었다.`pushstate`로 url이 변하였음에도 `pathname`이 변경이 인식이 되지 않아 컴포넌트가 보이지 않았다.
 
-`custom event`를 만들어서 `[dispatchEvent](https://ko.javascript.info/dispatch-events#ref-1072)`로 호출을 하여`popstate` 이벤트를 발생시켜서 화면을 렌더링 시켰다.
+`custom event`를 만들어서 `dispatchEvent`로 호출을 하여`popstate` 이벤트를 발생시켜서 화면을 렌더링 시켰다.
 
 > 참고
 > 
