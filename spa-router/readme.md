@@ -1,11 +1,9 @@
-# 1. hw1-Spa Router readme
-
 # **원티드 프론트엔드 챌린지**
-
 React와 History API 사용하여 SPA Router 기능 구현하기
 
-## 과제 요건
+<br/>
 
+## 과제 요건
 **1) 해당 주소로 진입했을 때 아래 주소에 맞는 페이지가 렌더링 되어야 한다.**
 
 - `/` → `root` 페이지
@@ -31,17 +29,9 @@ ReactDOM.createRoot(container).render(
 ```tsx
 const { push } = useRouter();
 ```
+    
+<br/>
 
-**5) 아래 스크린샷을 참고하여 앱을 작성한다.**
-
-- **TO-BE) Root 경로**
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d2a19c69-ed92-4431-afca-156a3d8ccd7e/Untitled.png)
-    
-- **TO-BE) About 경로**
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a10c03a3-1d27-4a02-a495-c7f98775ca23/Untitled.png)
-    
 
 ## 고민한 점
 
